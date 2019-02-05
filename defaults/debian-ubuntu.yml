@@ -5,5 +5,3 @@
 #
 
 grafana_apt_dependencies: []
-
-grafana_apt_distribution: wheezy
