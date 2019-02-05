@@ -29,7 +29,7 @@
 - name: ensure grafana apt key is present
   apt_key:
     url=https://packages.grafana.com/gpg.key
-    id=24098CB6
+    id="{{ grafana_gpg_key_id }}"
     state=present
   become: yes
   tags: [ apt ]
